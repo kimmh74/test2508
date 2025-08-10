@@ -104,7 +104,7 @@
 
  /* 서브 메뉴 */
  .sub-menu {
-     position: absolute;
+     position:relative;
      top: 100%;
      left: 0;
      background: #fff;
@@ -120,7 +120,7 @@
  }
 
  .main-menu>ul>li:hover .sub-menu {
-      background-color: #17197e;
+      background-color: #f0d0ab;
      opacity: 1;
      visibility: visible;
      transform: translateY(0);
@@ -171,7 +171,7 @@
      font-size: 20px;
  }
  #slider .sliderWrap .slider .text {
-    position: absolute;
+    position:absolute ;
     left: 50%;
     top: 25%;
     transform: translate(-50%, -50%);
